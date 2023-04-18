@@ -11,14 +11,52 @@
             background-color: #2e2e2e;
             color: beige;
             text-shadow: 3px 5px 5px #070708;
+            padding: 5px 15px;
+            font-family: Tahoma;
+        }
+
+        .disable-select>div {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            font-family: arial;
+        }
+
+        section {
+            border-top: 1px dashed #5d5c5c;
+            padding: 10px 0px 30px 10px;
         }
     </style>
 </head>
 
 <body>
     <h1>Fundamentals JS - Part 1</h1>
+
+    <section class="disable-select">
+        <h3>001 - Hello World</h3>
+        <div id="helloWorld"></div>
+    </section>
+
+    <section class="disable-select">
+        <h3>002 - Coding Challenge 01</h3>
+        <div id="codingChallenge001"></div>
+    </section>
+
+    <section class="disable-select">
+        <h3>003 - Template Literals</h3>
+        <div id="templateLiterals"></div>
+    </section>
+
+    <section class="disable-select">
+        <h3>004 - Coding Challenge 02</h3>
+        <div id="codingChallenge002"></div>
+    </section>
+
     <script src="helloWorld.js"></script>
-    <script src="codignChallenge001.js"></script>
+    <script src="codingChallenge001.js"></script>
+    <script src="templateLiterals.js"></script>
+    <script src="codingChallenge002.js"></script>
 </body>
 
 </html>
