@@ -1,3 +1,4 @@
+'use strict'
 container = document.getElementById("codingChallenge003");
 finalString = ``;
 

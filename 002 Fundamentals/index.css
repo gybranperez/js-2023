@@ -1,0 +1,26 @@
+body {
+    background-color: #2e2e2e;
+    color: beige;
+    text-shadow: 3px 5px 5px #070708;
+    padding: 4% 10%;
+    font-family: Tahoma;
+}
+
+section {
+    border-top: 1px dashed #5d5c5c;
+    padding: 10px 0px 30px 10px;
+}
+
+.disable-select>div {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: arial;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+    min-width: 25%;
+}
